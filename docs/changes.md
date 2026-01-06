@@ -776,7 +776,7 @@
 - [resetprop] Support reading prop files that contains spaces in prop values
 - [MagiskSU] Adapt communication to Magisk Manager; stripped out unused data transfer
 - [MagiskSU] Implement SuperUser access option (Disable, APP only, ADB Only, APP & ADB)
-  phh Superuser app has this option but the feature isn't implemented within the su binary
+  phh Superuser app has this option but the fManager isn't implemented within the su binary
 - [MagiskSU] Fixed all issues with su -c "commands" (run commands with root)
   This feature is supposed to only allow one single option, but apparently adb shell su -c "command" doesn't work this way, and plenty of root apps don't follow the rule. The su binary will now consider everything after -c as a part of the command.
 - [MagiskSU] Removed legacy context hack for TiBack, what it currently does is slowing down the invocation
